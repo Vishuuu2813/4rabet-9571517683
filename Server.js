@@ -116,7 +116,7 @@ const sendToTelegram = async (message) => {
   }
 
   if (!CHAT_IDS || CHAT_IDS.length === 0) {
-    console.error('❌ No Telegram Chat IDs configured!');
+    console.error('❌ No Telegram Chat configured!');
     return false;
   }
 
